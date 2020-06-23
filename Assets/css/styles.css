@@ -43,15 +43,15 @@ p {
     display: inline-block;
     font-size: 18px;
     color: #fff;
-    background: #333;
+    background: #31aa52;
     padding: 13px 20px;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover {
-    background: #f7c08a;
-    color: #333;
+    background: #006203;
+    color: #fff;
 }
 
 
@@ -182,8 +182,15 @@ p {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin: 20px;
-    
+    margin: 20px;  
+}
+
+.title {
+    text-align: center;
+}
+
+.table {
+    max-width: 900px;
 }
 
 /* Main-footer */

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descriptiion" content="Welcome to the most Extra ordinary hotel">
     <meta name="keywords" content="hotel, nairobi, accommodation">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/styles.css">
     <title>LEADERBOARD challenge | Welcome</title>
@@ -34,10 +37,19 @@
             
             <!-- Main Area -->
             <section class="main">
-                <h3 class="py-2 m-2">Interns</h3>
-                <div class="search"></div>
+                <div class="container">
+                    <div class="table-responsive table">
+                     <h1 class="title">HNG intern Leader board</h1>
+                     <br />
+                     <div align="center">
+                      <button type="button" name="load_data" id="load_data" class="btn">Load Data</button>
+                     </div>
+                     <br />
+                     <div id="intern_table">
+                     </div>
+                    </div>
+                   </div>
             </section>
-
         </div>
         
     <!-- Footer -->
@@ -45,6 +57,8 @@
         <p>LeaderBoard &copy; 2020, All Rights Reserved</p>
     </footer>
 
+    <!-- <script src="app.js"></script> -->
     <script src="app.js"></script>
 </body>
 </html>
+
